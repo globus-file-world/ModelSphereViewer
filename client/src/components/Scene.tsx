@@ -53,8 +53,7 @@ const Scene = ({ isActive }: SceneProps) => {
       <ambientLight intensity={0.4} />
       
       {/* Main directional light */}
-      <directional
-        light
+      <directionalLight
         castShadow
         position={[10, 15, 10]}
         intensity={1.5}
