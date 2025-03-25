@@ -135,7 +135,7 @@ const FloatingModel = ({ position, rotation, hover, texture, isActive, index }: 
     
     // Rotation around custom axis
     const rotationAngle = time * rotation.speed + rotation.phase;
-    meshRef.current.setRotationFromAxisAngle(rotation.axis, rotationAngle);
+    //meshRef.current.setRotationFromAxisAngle(rotation.axis, rotationAngle);
     
     // Add slight pulse if hovered
     if (isHovered && !isClicked) {
